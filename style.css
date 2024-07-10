@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Azeret Mono", monospace;
+}
+
+/* some common style for web page */
+.btn{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0D1321;
+    padding: 2px 12px;
+    border-radius: 2px;
+}
+
+.description{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+h3{
+    font-size: 32px;
+    font-weight: 800;
+}
+
+/* header style start here */
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 38px 150px 36px 150px;
+}
+.nav p{
+    font-size: 28px;
+    font-weight: 800;
+    color: #0D1321;
+}
+.download-button{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0D1321;
+    padding: 24px 17px;
+    border-radius: 8px;
+}
+
+
+
+
+/* hero section start here */
+
+
+.hero{
+    background-image: url(assets/Hero-bg.png);
+    height: 655px;
+    padding: 26px 220px 45px 220px;
+   
+}
+
+.hero-container{
+    width: 998px;
+    height: 580px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-img img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.hero-title{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+    margin: 32px 0px 24px;
+}
+
+.hero-description{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+
+.hero-btn{
+    display: block;
+    padding: 25px 21px;
+    margin: 0 auto;
+    background-color: #0D1321;
+    color: white;
+    border-radius: 8px;
+}
+
+.hero-btn a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* main section start here */
+main{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 80px;
+}
+
+/* web-development section start here */
+.web-development{
+    margin: 80px 0px;
+    padding: 80px 90px;
+    background-color: #fafbfe;
+    
+}
+
+.web-development-heading{
+    text-align: center;
+    margin: 0 auto;
+}
+.web-development-heading > p{
+    margin: 24px 0px 48px;
+}
+
+.web-development-content-1,.web-development-content-3{
+    display: flex;
+    padding: 48px;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.left-content{
+    width: 50%;
+}
+
+.left-content h4{
+    font-size: 24px;
+    font-weight: 700;
+}
+.right-content{
+    width: 30%;
+}
+
+.pera{
+    margin: 16px 0px 32px;
+}
+
+.web-development-content-2{
+    display: flex;
+    padding: 48px;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin: 32px 0px;
+    background-color: white;
+}
+
+
+/* inspiration section start here */
+
+.inspiration-heading{
+    text-align: center;
+}
+
+.inspiration-heading h3{
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.inspiration-heading p{
+    margin: 24px 100px 48px 100px;
+}
+
+.inspiration-content{
+    width: 1140px;
+    padding: 32px;
+    border: 0.6px solid rgb(218, 209, 209);
+    border-radius: 16px;
+    margin-bottom: 150px;
+}
+.inspiration-content iframe{
+    border-radius: 16px;
+    justify-content: center;
+}
+
+
+
+
+/* current terget design started here */
+
+.current-target-heading{
+    text-align: center;
+}
+.current-target-heading p{
+    margin: 24px 0px 48px;
+}
+
+.current-programming-lenguage{
+    display: flex;
+    flex-basis: 30%;
+    justify-content: space-between;
+}
+
+.html,.css,.js{
+    padding: 40px;
+}
+.html{
+    background-color: rgba(0, 0, 0, 0.20);
+    border-radius: 16px;
+}
+.html h4{
+    font-size: 24px;
+    font-weight: 800;
+    margin: 24px 0px 8px;
+}
+.css h4{
+    font-size: 24px;
+    font-weight: 800;
+    margin: 24px 0px 8px;
+}
+.js h4{
+    font-size: 24px;
+    font-weight: 800;
+    margin: 24px 0px 8px;
+}
+
+.css{
+    background-color: rgba(0, 76, 232, 0.05);
+    margin: 0px 15px;
+    border-radius: 16px;
+}
+.js{
+    background-color: rgba(255, 223, 0, 0.05);
+    border-radius: 16px;
+}
+.html p{
+    margin-bottom: 24px;
+}
+.css p{
+    margin-bottom: 24px;
+}
+.js p{
+    margin-bottom: 24px;
+}
+
+.html a{
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+.css a{
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+.js a{
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+
+/* next terget disign start here */
+.next-target{
+    margin-top: 110px;
+    margin-bottom: 50px;
+}
+
+.next-target-heading{
+    text-align: center;
+    margin-bottom: 48px;
+}
+.next-target-heading h3{
+    margin-bottom: 24px;
+}
+
+.reactJS,.nodeJS,.mongodb{
+    display: flex;
+    padding: 40px;
+}
+
+.next-image{
+    width: 15%;
+}
+.lenguege-name{
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+.learn-more{
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+.about-next-lenguege p{
+    margin-bottom: 24px;
+}
+
+
+
+
+/* suppport section start here */
+#support{
+    background-image: linear-gradient(180deg, rgb(16, 16, 16) -19.5%, rgba(16,16,16,0) 100%) ,url(assets/handshake.jpg);
+    height: 313px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 80px;
+    border-radius: 16px;
+    padding: 64px 48px;
+    color: white;
+    
+}
+.support-form{
+    text-align: center;
+}
+.support-form p{
+    margin: 16px 0px 24px;
+}
+.support-form input{
+     padding: 20px;
+     font-size: 16px;
+     font-weight: 400;
+     border-radius: 8px;
+     width: 550px;
+}
+
+.submit{
+    padding: 17px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+
+
+/* main section end here */
+
+
+/* footer section start here */
+.footer{
+    padding: 32px 150px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(13, 19, 33, 0.03);
+}
+.footer p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.social-media-icon img{
+    margin-left: 24px;
+}
